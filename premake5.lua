@@ -88,7 +88,7 @@ project "Test"
 	filter "configurations:Dist"
 		runtime "Release"
 		optimize "Speed"
-		defines "FE_CONF_RELEASE"
+		defines "FE_CONF_DIST"
 		kind "WindowedApp"
 
 group "Dependencies"
