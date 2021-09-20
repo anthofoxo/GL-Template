@@ -32,7 +32,8 @@ project "Test"
 	{
 		"%{wks.location}/vendor/glad2/include",
 		"%{wks.location}/vendor/glfw/include",
-		"%{wks.location}/vendor/spdlog/include"
+		"%{wks.location}/vendor/spdlog/include",
+		"%{wks.location}/vendor/glm"
 	}
 
 	defines
